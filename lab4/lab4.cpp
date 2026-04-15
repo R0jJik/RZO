@@ -9,7 +9,7 @@ printImage(Mat& image, string name)
     string link = name + ".jpg";
     imwrite(link, image);
 }
-int main {
+int main() {
     Mat img = imread("image.png");
 
     if (img.empty()) {
